@@ -36,8 +36,7 @@ public class ConnectDB extends SeleneseTestBase
      public void setUp() throws Exception
      {     }
      
-     //Funcion de Gabi
-     
+        
      public static void go()
      {
        	 String user = "etolbanos-ds";

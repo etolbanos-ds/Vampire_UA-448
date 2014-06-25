@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mySQLTest.ConnectDB">
+      <class name="mySQL_Update.ConnectDB">
         <methods>
           <include name="CreateDB"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- mySQLTest.ConnectDB -->
+      </class> <!-- mySQL_Update.ConnectDB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

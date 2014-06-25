@@ -23,7 +23,7 @@ public class Trt
 	{
 		// TODO Auto-generated method stub
 
-		String[] cmdArray = {"C:\\Users\\Eduardo\\Downloads\\putty.exe", "qa-027.dp.discovery.com", "etolbanos-ds"};
+		String[] cmdArray = {"C:\\Users\\Eduardo\\Downloads\\putty.exe", "qa-017.dp.discovery.com", "etolbanos-ds"};
 		Runtime rt = Runtime.getRuntime();
 		try 
 		
@@ -41,13 +41,15 @@ public class Trt
 	{
 		Session session = null;
 		Channel channel = null;
-		String command = "ls";
-		//String hosttoConnect = "qa-007.dp.discovery.com";
+		
+		// Commands to be executed, separated by semi colons
+		String command = "cd /; ls -l";
+		//String hosttoConnect = "QA ENVIRONMENT";
 		//String userid = "yourLogin";
-		String hosttoConnect = "qa-027.dp.discovery.com";
-		String userid = "etolbanos-ds";
-		int port =22;
 		//String password ="Yourpassword";
+		String hosttoConnect = "qa-017.dp.discovery.com";
+		int port =22;
+		String userid = "etolbanos-ds";
 		String password ="BZU9KRpd";
 		StringBuilder outputBuffer = new StringBuilder();
  
